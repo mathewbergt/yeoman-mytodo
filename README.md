@@ -4,6 +4,7 @@
   - grunt
 
 ###Test
+  - npm install karma-jasmine --save-dev
   - grunt test
 
 ###Run
