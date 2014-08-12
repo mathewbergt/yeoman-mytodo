@@ -13,8 +13,8 @@ describe('Controller: MainCtrl', function () {
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
     localStorageService = {
-      add: function(key, val){},
-      get: function(key){
+      add: function(){},
+      get: function(){
         return '';
       }
     };
