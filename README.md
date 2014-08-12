@@ -1,11 +1,8 @@
 ###Setup
   - npm install
+  - npm install karma-jasmine karma-phantomjs-launcher --save-dev
   - bower install
   - grunt
-
-###Test
-  - npm install karma-jasmine --save-dev
-  - grunt test
 
 ###Run
   - grunt serve
